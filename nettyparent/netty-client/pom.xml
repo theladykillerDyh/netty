@@ -22,11 +22,11 @@
                     <archive>
                         <manifest>
                             <!-- 此处指定main方法入口的class -->
-                            <mainClass>com.dyh.test.netty.netty.EchoServer</mainClass>
+                            <mainClass>com.dyh.test.netty.client.channel.EchoClient</mainClass>
                         </manifest>
                     </archive>
                 </configuration>
-                <!--<executions>
+                <executions>
                     <execution>
                         <id>make-assembly</id>
                         <phase>package</phase>
@@ -34,7 +34,7 @@
                             <goal>assembly</goal>
                         </goals>
                     </execution>
-                </executions>-->
+                </executions>
             </plugin>
 
         </plugins>
