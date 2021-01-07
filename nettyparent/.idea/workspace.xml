@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0b46b705-2b68-4d5d-ac63-434e8323e5aa" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../netty-client/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/NettyStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/controller/CheckServierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/netty/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/netty/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/netty/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-client/src/main/java/com/dyh/test/netty/netty/EchoServerHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/NettyStart.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/controller/CheckServierController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/netty/EchoClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/netty/EchoClientHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/netty/EchoServer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../netty-server/src/main/java/com/dyh/test/netty/netty/EchoServerHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -32,8 +20,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-client/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="374">
-              <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
+            <state relative-caret-position="850">
+              <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
             </state>
           </provider>
         </entry>
@@ -44,6 +32,49 @@
             <state relative-caret-position="816">
               <caret line="46" column="19" selection-start-line="46" selection-start-column="19" selection-end-line="46" selection-end-column="19" />
             </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/NettyServerMain.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="306">
+              <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#336#337#0" expanded="true" />
+                <element signature="e#374#375#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-server/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/controller/checkServerController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#392#393#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/channel/EchoServer.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-921" />
           </provider>
         </entry>
       </file>
@@ -62,19 +93,24 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/channel/EchoClientHandler.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
+            <state relative-caret-position="408">
+              <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#439#440#0" expanded="true" />
+                <element signature="e#455#456#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/netty-client/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="102">
@@ -101,11 +137,16 @@
         <option value="$PROJECT_DIR$/netty-server/pom.xml" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/netty-client/src/main/java/NettyClientMain.java" />
-        <option value="$PROJECT_DIR$/netty-client/pom.xml" />
         <option value="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/NettyClientMain.java" />
         <option value="$PROJECT_DIR$/netty-client/src/main/resources/Application.yml" />
-        <option value="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java" />
         <option value="$PROJECT_DIR$/netty-client/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/netty-client/pom.xml" />
+        <option value="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/channel/EchoClientHandler.java" />
+        <option value="$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/NettyServerMain.java" />
+        <option value="$PROJECT_DIR$/netty-server/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java" />
+        <option value="$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/controller/checkServerController.java" />
+        <option value="$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/channel/EchoServer.java" />
       </list>
     </option>
   </component>
@@ -123,9 +164,9 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="261" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="389" />
+    <option name="y" value="75" />
     <option name="width" value="1550" />
     <option name="height" value="838" />
   </component>
@@ -158,50 +199,47 @@
             <path>
               <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
               <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
+              <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
+              <item name="netty-server" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="server" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="netty-parent" type="b2602c69:ProjectViewProjectNode" />
-              <item name="nettyparent" type="462c0819:PsiDirectoryNode" />
-              <item name="netty-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -216,7 +254,7 @@
     <property name="RequestMappingsPanelWidth1" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610002973283" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1610004285147" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -224,6 +262,12 @@
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.fileTypes" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\gitData\netty\nettyparent\netty-server\src\main\java\com\dyh\test\netty\server\channel" />
+      <recent name="D:\gitData\netty\nettyparent\netty-client\src\main\java\com\dyh\test\netty\client\channel" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -237,7 +281,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.NettyServerMain">
     <configuration name="NettyClientMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="nettyclient" />
       <extension name="coverage">
@@ -251,8 +295,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="NettyServerMain" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nettyserver" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.dyh.test.netty.server.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.dyh.test.netty.server.NettyServerMain" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.NettyServerMain" />
         <item itemvalue="Spring Boot.NettyClientMain" />
       </list>
     </recent_temporary>
@@ -267,16 +325,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1609986979466</updated>
-      <workItem from="1609986991051" duration="5184000" />
+      <workItem from="1609986991051" duration="6503000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5184000" />
+    <option name="totallyTimeSpent" value="6503000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -366,6 +423,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/netty-client/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-client/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="25" column="35" selection-start-line="25" selection-start-column="35" selection-end-line="25" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/channel/EchoClientHandler.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="816">
@@ -373,21 +447,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-client/pom.xml">
+    <entry file="file://$PROJECT_DIR$/netty-server/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="11" column="41" selection-start-line="11" selection-start-column="41" selection-end-line="11" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="9" column="29" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#439#440#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="102">
+          <caret line="3" column="24" selection-start-line="3" selection-start-column="24" selection-end-line="3" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -403,11 +466,43 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/netty-client/src/main/resources/application.yml">
+    <entry file="file://$PROJECT_DIR$/netty-client/src/main/java/com/dyh/test/netty/client/controller/CheckServerController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        <state relative-caret-position="408">
+          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#455#456#0" expanded="true" />
+          </folding>
         </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/NettyServerMain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="10" column="53" selection-start-line="10" selection-start-column="53" selection-end-line="10" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#336#337#0" expanded="true" />
+            <element signature="e#374#375#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/controller/checkServerController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="8" column="29" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#392#393#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/netty-server/src/main/java/com/dyh/test/netty/server/channel/EchoServer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-921" />
       </provider>
     </entry>
   </component>
